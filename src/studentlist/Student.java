@@ -13,6 +13,7 @@ public class Student
 {
     private String name;
     private int age;
+    private int partimeId;
 
     /**
      * @return the name
@@ -40,6 +41,20 @@ public class Student
      */
     public void setAge(int age) {
         this.age = age;
+    }
+
+    /**
+     * @return the partimeId
+     */
+    public int getPartimeId() {
+        return partimeId;
+    }
+
+    /**
+     * @param partimeId the partimeId to set
+     */
+    public void setPartimeId(int partimeId) {
+        this.partimeId = partimeId;
     }
     
 }
